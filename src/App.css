@@ -1,3 +1,50 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aoboshi+One&display=swap');
+*{
+  padding: 0; margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Didact Gothic', sans-serif;
+  /* font-family: 'Aoboshi One', serif; */
+}
+/* .App {
   text-align: center;
+} */
+
+.background{
+  background-color: whitesmoke;
+  padding: 50px 0;
+}
+.container{
+  max-width: 90%;
+  margin: auto;
+}
+.d_flex{
+  display: flex;
+  justify-content: space-between;
+}
+.c_flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.f_flex{
+  display: flex;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.li{
+  list-style: none;
+}
+.uppercase{
+  text-transform: uppercase;
+}
+.capitalize{
+  text-transform: capitalize;
+}
+.RText{
+  text-align: right;
 }
