@@ -30,7 +30,7 @@
 }
 .search-box{
     width: 80%;
-    border: 2px solid grey;
+    border: 1px solid grey;
 }
 .search-box i{
     width: 6%;
@@ -39,10 +39,15 @@
     opacity: 0.4;
     padding: 15px 20px;
     font-size: 17px;
+    cursor: pointer;
+}
+.search-box i:hover{
+    color: orangered;
 }
 .search-box input{
     width: 100%;
     padding: 10px;
+    border: 2px solid grey;
 }
 ::placeholder{
     font-size: 16px;
@@ -92,7 +97,7 @@
 }
 .header{
     height: 8vh;
-    box-shadow: -1px 15px 17px -8px grey;
+    box-shadow: -1px 15px 7px -8px rgba(0, 0, 0, 0.2);
 }
 .header ul{
     line-height: 8vh;
