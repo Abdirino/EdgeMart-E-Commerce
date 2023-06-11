@@ -2,6 +2,10 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 const Search = () => {
+  window.addEventListener("scroll",function(){
+    const search = this.document.querySelector('.search')
+    search.classList.toggle("active", window.scrollY > 100)
+  })
   return (
     <>
       <section className="search">
@@ -21,7 +25,7 @@ const Search = () => {
             <i className='fa fa-user icon_circle'></i>
             <div className="cart">
               <Link to='/cart'>
-                <i className='fa fa-shopping-bag icon-circle'></i>
+                <i className='fa fa-shopping-bag icon_circle'></i>
                 <span>0</span>
               </Link>
             </div>
