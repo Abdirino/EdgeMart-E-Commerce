@@ -18,7 +18,7 @@ const Navbar = () => {
           </div>
           <NavLink className="logo">
             <h1>
-              <span>Edge</span>Mart.
+              <span>Edge</span>Mart<span>.</span>
             </h1>
           </NavLink>
 
