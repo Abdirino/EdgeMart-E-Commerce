@@ -1,0 +1,34 @@
+.home-slider{
+    padding: 5rem 1rem;
+}
+.h-slider{
+    display: flex;
+    padding: 3rem 1rem;
+    justify-content: center;
+    align-items: center;
+}
+.h-details{
+    display: flex;
+    flex: 1 1 450px;
+    flex-direction: column;
+}
+.h-details p{
+    padding: 12px 10px;
+}
+.h-details h1{
+    font-size: 33px;
+    padding: 15px 10px;
+}
+
+.h-image{
+    display: flex;
+    flex: 1 1 450px;
+    width: 400px;
+}
+
+
+@media(max-width: 990px){
+    .h-slider{
+        flex-wrap: wrap;
+    }
+}
