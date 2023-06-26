@@ -107,6 +107,37 @@
   }
 }
 
+.search{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  padding: 1rem 0;
+}
+.search .h-search{
+  display: flex;
+  align-items: center;
+}
+.search .h-search input{
+  padding: 16px 100px;
+  border: 2px solid  rgba(0, 0, 0, 0.5);
+  color: grey;
+  border-radius: 4px;
+  font-size: 18px;
+}
+.search .h-search i{
+  padding: 17px;
+  border: 2px solid  rgba(0, 0, 0, 0.5);
+  color: grey;
+  border-radius: 4px;
+  font-size: 18px;
+}
+
+.search .h-deal{
+  padding: 16px 10px;
+}
+
+
 @media (max-width: 720px) {
   .btns{
     display: none;
