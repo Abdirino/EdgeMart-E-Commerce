@@ -56,8 +56,11 @@
     padding: 15px 6px;
     cursor: pointer;
 }
+ .l p:hover{
+    color: rgb(225, 111, 4);
+ }
 .copy-write{
-    background: rgb(65, 65, 65);
+    background: rgba(0, 0, 0, 0.9);
     color: orangered;
     display: flex;
     justify-content: center;

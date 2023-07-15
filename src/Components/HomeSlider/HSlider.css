@@ -2,22 +2,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Marko+One&display=swap");
 
 .home-slider {
-  padding: 3rem 2.5rem 2.5rem 2.5rem;
+  padding: 4.8rem 2.1rem;
   background-image: url(../../images/HomeBG.jpg);
   background-repeat: no-repeat;
   background-position: center;
   font-family: "Roboto", sans-serif;
+  background-size: cover;
+  /* height: 100vh; */
 }
 .h-slider {
+  /* height: 90vh; */
   display: flex;
-  padding: 2.6rem 5rem 0 5rem;
+  padding: 3rem 5rem 0 5rem;
   justify-content: center;
   align-items: center;
   gap: 20px;
 }
 .h-details {
   display: flex;
-  flex: 1 1 450px;
+  flex: 1 1 400px;
   flex-direction: column;
 }
 .h-details p {
@@ -104,13 +107,17 @@ button:hover span {
 
 .h-image {
   display: flex;
-  flex: 1 1 250px;
+  flex: 1 1 200px;
+}
+.h-image img{
+  width: 82%; height: 82%;
+  object-fit: cover;
 }
 
 .home-images {
   padding: 1rem;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 10px;
   cursor: pointer;
 }
@@ -123,6 +130,22 @@ button:hover span {
 @media (max-width: 990px) {
   .h-slider {
     flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 490px) {
+  .h-details h1{
+    font-size: 42px;
+  }
+  .h-details p{
+    font-size: 19px;
+  }
+}
+@media(min-width:1550px){
+  .h-details h1{
+    font-size: 78px;
   }
 }
 
