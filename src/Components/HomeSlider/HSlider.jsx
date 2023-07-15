@@ -15,6 +15,7 @@ const HSlider = () => {
     dots: true,
     infinite: true,
     speed: 500,
+    autoplay: true,
     slidesToShow: 1,
     slidesToScroll: 1,
   };
@@ -33,6 +34,21 @@ const HSlider = () => {
               </div>
               <div className="h-image">
                 <img src={headphone} alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div className="h-slider">
+              <div className="h-details">
+                <p>Get 50% OFF</p>
+                <h1>Shop Wisely With<span> Price Comparison</span></h1>
+                <button>
+                  <span>View Collection</span>
+                </button>
+              </div>
+              <div className="h-image">
+                <img src={headphone2} alt="" />
               </div>
             </div>
           </div>

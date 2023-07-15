@@ -85,12 +85,6 @@ const Navbar = () => {
             <i class="fa-solid fa-cart-shopping"></i>
           </div>
         </nav>
-        <div className="search">
-          <div className="h-search">
-            <input type="text" placeholder="Find your Product..." />
-            <i className="fa-solid fa-search"></i>
-          </div>
-        </div>
       </div>
     </>
   );
