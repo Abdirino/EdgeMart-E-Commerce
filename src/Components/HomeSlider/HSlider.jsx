@@ -4,18 +4,17 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import headphone from "../../images/headphone_2-1.png";
+// import headphone from "../../images/headphone_2-1.png";
+import headphone2 from "../../images/head_phone_2-2.png";
 import banner from "../../images/offer_banner_21-1-1-1.jpg";
 import banner2 from "../../images/offer_banner_31-1-1-1.png";
 import banner3 from "../../images/offer_banner_41-1-1-1.jpg";
-import headphone2 from "../../images/head_phone_2-2.png";
 
 const HSlider = () => {
   const settings = {
     dots: true,
     infinite: true,
     speed: 500,
-    autoplay: true,
     slidesToShow: 1,
     slidesToScroll: 1,
   };
@@ -38,7 +37,7 @@ const HSlider = () => {
             </div>
           </div>
 
-          <div>
+          {/* <div>
             <div className="h-slider">
               <div className="h-details">
                 <p>Get 50% OFF</p>
@@ -51,7 +50,7 @@ const HSlider = () => {
                 <img src={headphone} alt="" />
               </div>
             </div>
-          </div>
+          </div> */}
         </Slider>
       </div>
       <div className="home-images">

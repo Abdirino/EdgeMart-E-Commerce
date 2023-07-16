@@ -11,7 +11,7 @@
   /* height: 100vh; */
 }
 .h-slider {
-  /* height: 90vh; */
+  height: 92vh;
   display: flex;
   padding: 3rem 5rem 0 5rem;
   justify-content: center;
@@ -29,7 +29,7 @@
   font-weight: bold;
 }
 .h-details h1 {
-  font-size: 60px;
+  font-size: 45px;
   padding: 15px 10px;
   font-family: "Marko One", serif;
 }
@@ -110,7 +110,7 @@ button:hover span {
   flex: 1 1 200px;
 }
 .h-image img{
-  width: 82%; height: 82%;
+  width: 90%; height: 90%;
   object-fit: cover;
 }
 
