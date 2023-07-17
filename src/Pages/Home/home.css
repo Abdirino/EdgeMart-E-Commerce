@@ -1,6 +1,5 @@
-::-webkit-scrollbar-thumb{
-    border-radius: 20px;
-  }
-  ::-webkit-scrollbar-button{
-    display: none;
-  }
+*{
+  margin: 0; padding: 0;
+  box-sizing: border-box;
+  transition: 0.4s;
+}

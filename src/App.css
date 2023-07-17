@@ -6,3 +6,10 @@
   text-decoration: none;
   /* font-family: 'Josefin Sans', sans-serif; */
 }
+::-webkit-scrollbar{
+  width:14px!important ;
+}
+::-webkit-scrollbar-thumb{
+  background: rgba(255, 68, 0, 0.6) !important;
+  border-radius: 3px;
+}

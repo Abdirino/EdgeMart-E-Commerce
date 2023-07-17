@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Marko+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 * {
   margin: 0; padding: 0;
   box-sizing: border-box;
@@ -5,4 +7,80 @@
 }
 .about{
     background:#f2f5fa ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 4.5rem 1rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.history{
+  display: flex;
+  align-items: center;
+  padding: 1rem 2rem;
+  gap: 1.2rem;
+}
+.h-detail{
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  text-align: start;
+  flex: 1 1 500px;
+  flex-direction: column;
+}
+.h-detail h3{
+  color: orangered;
+  padding: 10px 0;
+}
+.h-detail h1{
+  font-size: 50px;
+  padding: 5px 0 !important;
+  font-family: 'Marko One', serif;
+}
+.h-detail p{
+  font-size: 20px;
+  padding: 8px 0;
+}
+.h-detail .nums{
+  display: flex;
+  text-align: start;
+  align-items: center;
+  padding: 40px 0 0 0;
+  gap: 3rem;
+}
+.nums .num h2{
+  color: orangered;
+  font-size: 28px;
+}
+.h-image{
+  display: flex;
+  flex: 1 1 350px;
+}
+
+.a-vision{
+  padding: 4rem 2rem 0 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+.v-image{
+  display: flex;
+  flex: 1 1 350px;
+}
+.v-detail{
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 500px;
+}
+.v-detail h3{
+  color: orangered;
+  padding: 20px 0;
+}
+.v-detail h1{
+  font-size: 50px;
+  padding: 10px 0;
+  font-family: 'Marko One', serif;
+}
+.v-detail p{
+  padding: 10px 0;
 }

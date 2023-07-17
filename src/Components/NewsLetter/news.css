@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Marko+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    transition: 0.4s;
+}
+.news{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: rgba(0, 0, 0, 0.9);
+    padding: 4rem 1rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.n-detail{
+    text-align: center;
+}
+.n-detail h2{
+    color: white;
+    font-size: 29px;
+    padding: 10px 0;
+}
+.n-detail p{
+    color: white;
+    font-size: 20px;
+}
+.n-input input{
+    padding: 15px 80px 15px 10px;
+    border: 0.8px solid grey;
+
+}
+.n-input button{
+    padding: 15px 40px;
+    border: none;
+    cursor: pointer;
+    background: orangered;
+    color: white;
+    font-weight: bold;
+}
