@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Marko+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Marko+One&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -16,7 +16,7 @@
   background: rgb(255, 255, 255);
   position: fixed;
   z-index: 1000;
-  font-family: 'Marko One', serif;
+  font-family: "Marko One", serif;
 }
 .nav {
   display: flex;
@@ -63,12 +63,12 @@
   flex-direction: row;
   gap: 4px;
 }
-.s-icons i{
+.s-icons i {
   font-size: 25px;
   padding: 12px;
   cursor: pointer;
 }
-.s-icons i:hover{
+.s-icons i:hover {
   color: orangered;
 }
 
@@ -107,47 +107,58 @@
   }
 }
 
-.search{
+.search {
   display: flex;
   justify-content: center;
   align-items: center;
   background: white;
   padding: 1rem 0;
 }
-.search .h-search{
+.search .h-search {
   display: flex;
   align-items: center;
 }
-.search .h-search input{
+.search .h-search input {
   padding: 16px 100px;
-  border: 2px solid  rgba(0, 0, 0, 0.5);
+  border: 2px solid rgba(0, 0, 0, 0.5);
   color: grey;
   border-radius: 4px;
   font-size: 18px;
 }
-.search .h-search i{
+.search .h-search i {
   padding: 17px;
-  border: 2px solid  rgba(0, 0, 0, 0.5);
+  border: 2px solid rgba(0, 0, 0, 0.5);
   color: grey;
   border-radius: 4px;
   font-size: 18px;
 }
 
-.search .h-deal{
+.search .h-deal {
   padding: 16px 10px;
 }
 
-
 @media (max-width: 720px) {
-  .btns{
+  .btns {
     display: none;
   }
-  .logo h1{
+  .logo h1 {
     font-size: 26px;
   }
-  .s-icons i{
+  .s-icons i {
     font-size: 21px;
     padding: 8px;
     cursor: pointer;
+  }
+}
+@media (min-width: 1700px) {
+  .nav {
+    max-width: 70%;
+    display: flex;
+    gap: 7.6rem;
+  }
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }

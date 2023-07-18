@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Marko+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    transition: 0.4s ease;
+}
+.Blog{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap:3rem ;
+    padding: 5rem 1rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.blog{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+.b-image img{
+    width: 100%; height: 100%;
+    object-fit: cover;
+}
+.b-detail .topic{
+    display: flex;
+    padding: 12px 0;
+    align-items: center;
+    gap: 7px;
+}
+.topic i{
+    font-size: 20px;
+}
+.topic p{
+    font-size: 16px !important;
+    font-weight: lighter !important;
+    color: orangered !important;
+}
+.b-detail h2{
+    font-size: 38px;
+    padding: 6px 0;
+    font-family: 'Marko One', serif;
+    cursor: pointer;
+}
+.b-detail h2:hover{
+    color: orangered;
+}
+.b-detail p{
+    font-size: 22px;
+    padding: 8px 0;
+}
+.b-detail button{
+    padding: 12px 36px;
+    font-weight: bolder;
+    font-size: 18px;
+    margin: 15px 0;
+    background: orangered;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.continue{
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    font-size: 19px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.continue .prev, .next{
+    padding: 10px 18px;
+    background: orangered;
+    border-radius: 3px;
+}
+.continue:nth-child(3){
+    color: orangered;
+}
+@media(max-width:600px){
+    .Blog{
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+}
