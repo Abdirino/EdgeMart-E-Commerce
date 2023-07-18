@@ -54,6 +54,11 @@ const About = () => {
               after installed base benefits. Dramatically visualize customer
               directed convergence without revolutionary ROI.
             </p>
+            <ul>
+              <li>Credibly innovate granular internal</li>
+              <li>Grantedly underconstructions reloaded</li>
+              <li>Completely synergize resource taxing relationships</li>
+            </ul>
           </div>
         </div>
       </div>

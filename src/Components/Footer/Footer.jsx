@@ -54,7 +54,7 @@ const Footer = () => {
       </div>
       <div className="copy-write">
         <p>
-          Copyright © 2021 Edge Mart. All Rights Reserved.Developed by @Abdirino
+          © 2023 Edge Mart. All Rights Reserved.Developed by @Abdirino
         </p>
       </div>
     </>
