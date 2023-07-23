@@ -8,9 +8,19 @@
 .Blog{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
-    gap:3rem ;
-    padding: 5rem 1rem;
+    gap:1.8rem ;
+    padding: 1.2rem 2.4rem;
     font-family: 'Josefin Sans', sans-serif;
+}
+.head h1{
+    padding: 5.4rem 1rem 1rem 1rem;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Marko One', serif;
+    background: rgba(255, 68, 0, 0.12);
+}
+.head h1 span{
+    color: orangered;
 }
 .blog{
     display: flex;
@@ -23,9 +33,13 @@
     width: 100%; height: 100%;
     object-fit: cover;
 }
+.b-detail{
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+}
 .b-detail .topic{
     display: flex;
-    padding: 12px 0;
+    padding: 12px 8px;
     align-items: center;
     gap: 7px;
 }
@@ -38,7 +52,7 @@
     color: orangered !important;
 }
 .b-detail h2{
-    font-size: 38px;
+    font-size: 28px;
     padding: 6px 0;
     font-family: 'Marko One', serif;
     cursor: pointer;
@@ -47,13 +61,14 @@
     color: orangered;
 }
 .b-detail p{
-    font-size: 22px;
+    font-size: 19px;
     padding: 8px 0;
+    font-weight: lighter;
 }
 .b-detail button{
-    padding: 12px 36px;
+    padding: 12px 32px;
     font-weight: bolder;
-    font-size: 18px;
+    font-size: 17px;
     margin: 15px 0;
     background: orangered;
     color: white;

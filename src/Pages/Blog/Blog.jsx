@@ -1,9 +1,9 @@
 import React from "react";
 import "./blog.css";
-import news1 from '../../images/news-1-1.jpg'
-import news2 from '../../images/news-4-1.jpg'
-import news3 from '../../images/news-2.jpg'
-import news4 from '../../images/news-3-1.jpg'
+import news1 from "../../images/news-1-1.jpg";
+import news2 from "../../images/news-4-1.jpg";
+import news3 from "../../images/news-2.jpg";
+import news4 from "../../images/news-3-1.jpg";
 import Navbar from "../../Components/Navbar/Navbar";
 import Footer from "../../Components/Footer/Footer";
 import News from "../../Components/NewsLetter/News";
@@ -11,7 +11,12 @@ import News from "../../Components/NewsLetter/News";
 const Blog = () => {
   return (
     <>
-        <Navbar />
+      <Navbar />
+      <div className="head">
+        <h1>
+          Our <span>Blog</span>
+        </h1>
+      </div>
       <div className="Blog">
         <div className="blog">
           <div className="b-image">
