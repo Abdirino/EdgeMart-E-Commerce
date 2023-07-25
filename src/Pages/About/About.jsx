@@ -11,6 +11,9 @@ const About = () => {
   return (
     <>
       <Navbar />
+      <div className="head">
+        <h1>About <span>Us</span></h1>
+      </div>
       <div className="about">
         <div className="history">
           <div className="h-detail">
