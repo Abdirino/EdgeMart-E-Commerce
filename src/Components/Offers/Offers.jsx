@@ -7,36 +7,52 @@ const Offers = () => {
       <div className="offers">
         <div className="offer-details">
           <div className="offer">
-            <i class="fa-solid fa-truck-fast"></i>
-            <h3>Worldwide Delivery</h3>
-            <p>
-              At our company, we take pride in offering competitive prices on a
-              vast selection of products.
-            </p>
+            <div className="o-icon">
+              <i class="fa-solid fa-truck-fast"></i>
+            </div>
+            <div className="o-detail">
+              <h3>Worldwide Delivery</h3>
+              <p>
+                At our company, we take pride in offering competitive prices on
+                a vast selection of products.
+              </p>
+            </div>
           </div>
           <div className="offer">
-            <i class="fa-solid fa-credit-card"></i>
-            <h3>Safe Payment</h3>
-            <p>
-              At our company, we take pride in offering competitive prices on a
-              vast selection of products.
-            </p>
+            <div className="o-icon">
+              <i class="fa-solid fa-truck-fast"></i>
+            </div>
+            <div className="o-detail">
+              <h3>Worldwide Delivery</h3>
+              <p>
+                At our company, we take pride in offering competitive prices on
+                a vast selection of products.
+              </p>
+            </div>
           </div>
           <div className="offer">
-            <i class="fa-sharp fa-solid fa-shield-halved"></i>
-            <h3>Security</h3>
-            <p>
-              At our company, we take pride in offering competitive prices on a
-              vast selection of products.
-            </p>
+            <div className="o-icon">
+              <i class="fa-solid fa-truck-fast"></i>
+            </div>
+            <div className="o-detail">
+              <h3>Worldwide Delivery</h3>
+              <p>
+                At our company, we take pride in offering competitive prices on
+                a vast selection of products.
+              </p>
+            </div>
           </div>
           <div className="offer">
-            <i class="fa-solid fa-headset"></i>
-            <h3>24 / 7 Support</h3>
-            <p>
-              At our company, we take pride in offering competitive prices on a
-              vast selection of products.
-            </p>
+            <div className="o-icon">
+              <i class="fa-solid fa-truck-fast"></i>
+            </div>
+            <div className="o-detail">
+              <h3>Worldwide Delivery</h3>
+              <p>
+                At our company, we take pride in offering competitive prices on
+                a vast selection of products.
+              </p>
+            </div>
           </div>
         </div>
       </div>

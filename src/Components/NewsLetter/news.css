@@ -10,7 +10,9 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background: rgba(0, 0, 0, 0.9);
+  background: linear-gradient(to right,rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../../images/Offer\ img.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
   padding: 4rem 1rem;
   font-family: "Josefin Sans", sans-serif;
 }

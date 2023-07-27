@@ -15,6 +15,7 @@
     0px 0.4em 0.7em -0.1em rgba(0, 0, 0, 0.09);
   background: rgb(255, 255, 255);
   position: fixed;
+  top: 0; left: 0; right: 0;
   z-index: 1000;
   font-family: "Marko One", serif;
 }
@@ -36,7 +37,7 @@
   display: none;
 }
 .logo h1 {
-  font-size: 40px;
+  font-size: 30px;
   color: black;
 }
 .logo h1 span {
@@ -50,9 +51,9 @@
   padding: 0.5rem;
 }
 .nav-item a {
-  font-size: 18px;
+  font-size: 17px;
   color: black;
-  font-weight: 500;
+  font-weight: lighter;
   padding: 10px;
 }
 .nav-item a:hover {
@@ -64,7 +65,7 @@
   gap: 4px;
 }
 .s-icons i {
-  font-size: 25px;
+  font-size: 21px;
   padding: 12px;
   cursor: pointer;
 }

@@ -2,115 +2,54 @@
 @import url("https://fonts.googleapis.com/css2?family=Marko+One&display=swap");
 
 .home-slider {
-  padding: 4.8rem 2.1rem;
-  background-image: url(../../images/HomeBG.jpg);
+  padding: 4rem 1rem;
   background-repeat: no-repeat;
   background-position: center;
   font-family: "Roboto", sans-serif;
   background-size: cover;
   /* height: 100vh; */
+  overflow: hidden;
 }
 .h-slider {
-  height: 92vh;
+  /* height: 92vh; */
   display: flex;
-  padding: 3rem 5rem 0 5rem;
+  padding:  1rem 5rem;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 2rem;
 }
 .h-details {
   display: flex;
   flex: 1 1 400px;
   flex-direction: column;
-}
-.h-details p {
-  padding: 0 13px;
-  font-size: 25px;
-  font-weight: bold;
+  text-align: start;
 }
 .h-details h1 {
-  font-size: 45px;
-  padding: 15px 10px;
+  font-size: 32px;
+  padding: 10px;
+  font-family: "Marko One", serif;
+}
+.h-details p {
+  padding: 10px;
+  font-size: 21px;
+  font-weight: lighter;
+}
+.h-details .price {
+  font-size: 21px;
+  padding: 16px 10px;
+  font-weight: bolder;
   font-family: "Marko One", serif;
 }
 .h-details h1 span {
   color: orangered;
 }
-.h-details button {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 7px;
-  width: fit-content;
-  margin: 7px 13px;
-  font-weight: bold;
-  color: orangered;
-  cursor: pointer;
-  background: black;
-  font-family: "Montserrat", sans-serif;
-  overflow: hidden;
-  border: none;
-}
-
-.h-details button:after {
-  content: "";
-  width: 0%;
-  height: 100%;
-  background: orangered;
-  color: black;
-  position: absolute;
-  transition: all 0.4s ease-in-out;
-  right: 0;
-}
-
-.h-details button:hover::after {
-  right: auto;
-  left: 0;
-  width: 100%;
-}
-button span {
-  text-align: center;
-  text-decoration: none;
-  width: 100%;
-  padding: 20px 30px;
-  color: orangered;
-  font-size: 23px;
-  font-weight: 700;
-  z-index: 20;
-  transition: all 0.3s ease-in-out;
-}
-
-button:hover span {
-  color: #000000;
-  animation: scaleUp 0.3s ease-in-out;
-}
-
-.h-details button:hover {
-  color: #000000;
-  animation: scaleUp 0.3s ease-in-out;
-}
-
-@keyframes scaleUp {
-  0% {
-    transform: scale(1);
-  }
-
-  50% {
-    transform: scale(0.95);
-  }
-
-  100% {
-    transform: scale(1);
-  }
-}
 
 .h-image {
   display: flex;
-  flex: 1 1 200px;
+  flex: 1 1 160px;
 }
 .h-image img{
-  width: 90%; height: 90%;
+  width: 82%; height: 82%;
   object-fit: cover;
 }
 
@@ -152,7 +91,7 @@ button:hover span {
 .slick-prev:before,
 .slick-next:before {
   font-size: 35px !important;
-  display: none;
+  /* display: none; */
 }
 
 .slick-dots li button:before {

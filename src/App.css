@@ -13,3 +13,53 @@
   background: rgba(255, 68, 0, 0.6) !important;
   border-radius: 3px;
 }
+.button {
+  width: fit-content;
+  font-size: 17px;
+  padding: 1em 2.7em;
+  margin: 10px;
+  font-weight: 500;
+  background: orangered;
+  background: linear-gradient(90deg, rgb(157, 34, 0) 0%, rgb(245, 98, 35) 100%);
+  color: #000;
+  font-weight: 900;
+  border: none;
+  position: relative;
+  overflow: hidden;
+  border-radius: 3px;
+  box-shadow: 0 0 10px #7f7f7f;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.label {
+  position: relative;
+  top: -1px;
+}
+
+.transition {
+  transition-timing-function: cubic-bezier(0.8, 0, 0.2, 1);
+  transition-duration: 400ms;
+  background: #ffffff;
+  border-radius: 9999px;
+  width: 10em;
+  height: 10em;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.button:hover .transition {
+  width: 0;
+  height: 0;
+}
+
+.button:hover {
+  transition: 0.2s;
+  color: #fff;
+}
+
+.button:active {
+  transform: scale(0.97);
+}
