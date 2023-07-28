@@ -2,36 +2,39 @@
 @import url("https://fonts.googleapis.com/css2?family=Marko+One&display=swap");
 
 .home-slider {
-  padding: 4rem 1rem;
+  padding: 4rem 1rem 1rem 1rem;
   background-repeat: no-repeat;
   background-position: center;
   font-family: "Roboto", sans-serif;
   background-size: cover;
   /* height: 100vh; */
   overflow: hidden;
+  background: rgba(0, 0, 0, 0.1);
 }
 .h-slider {
   /* height: 92vh; */
   display: flex;
-  padding:  1rem 5rem;
+  padding:  2.5rem 5rem 1rem 5rem;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  gap: 2.5rem;
 }
 .h-details {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex: 1 1 400px;
   flex-direction: column;
-  text-align: start;
+  text-align: center;
 }
 .h-details h1 {
-  font-size: 32px;
+  font-size: 37px;
   padding: 10px;
   font-family: "Marko One", serif;
 }
 .h-details p {
   padding: 10px;
-  font-size: 21px;
+  font-size: 18px;
   font-weight: lighter;
 }
 .h-details .price {
@@ -46,7 +49,7 @@
 
 .h-image {
   display: flex;
-  flex: 1 1 160px;
+  flex: 1 1 400px;
 }
 .h-image img{
   width: 82%; height: 82%;
@@ -54,10 +57,10 @@
 }
 
 .home-images {
-  padding: 1rem;
+  padding: 1rem 3.5rem;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 10px;
+  gap: 1rem;
   cursor: pointer;
 }
 .home-images .image img {
@@ -82,9 +85,13 @@
     font-size: 19px;
   }
 }
-@media(min-width:1550px){
+@media(min-width:1650px){
   .h-details h1{
-    font-size: 78px;
+    font-size: 68px;
+  }
+  .h-slider{
+    max-width: 70%;
+    margin-left: 20rem;
   }
 }
 

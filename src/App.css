@@ -7,7 +7,10 @@
   /* font-family: 'Josefin Sans', sans-serif; */
 }
 ::-webkit-scrollbar{
-  width:14px!important ;
+  width:12px!important ;
+}
+::-webkit-scrollbar-track{
+  background: rgba(255, 68, 0, 0.3);
 }
 ::-webkit-scrollbar-thumb{
   background: rgba(255, 68, 0, 0.6) !important;
@@ -16,10 +19,10 @@
 .button {
   width: fit-content;
   font-size: 17px;
-  padding: 1em 2.7em;
+  padding: 1rem 3rem;
   margin: 10px;
   font-weight: 500;
-  background: orangered;
+  /* background: orangered; */
   background: linear-gradient(90deg, rgb(157, 34, 0) 0%, rgb(245, 98, 35) 100%);
   color: #000;
   font-weight: 900;
@@ -27,7 +30,7 @@
   position: relative;
   overflow: hidden;
   border-radius: 3px;
-  box-shadow: 0 0 10px #7f7f7f;
+  box-shadow: 0 0 21px #7f7f7f;
   transition: 0.2s;
   cursor: pointer;
 }
@@ -42,7 +45,7 @@
   transition-duration: 400ms;
   background: #ffffff;
   border-radius: 9999px;
-  width: 10em;
+  width: 20em;
   height: 10em;
   position: absolute;
   left: 50%;
@@ -58,6 +61,7 @@
 .button:hover {
   transition: 0.2s;
   color: #fff;
+  box-shadow: 0 0 6px #7f7f7f;
 }
 
 .button:active {

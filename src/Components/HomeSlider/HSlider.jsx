@@ -6,8 +6,9 @@ import "slick-carousel/slick/slick-theme.css";
 
 import Offers from '../Offers/Offers'
 
-// import headphone from "../../images/headphone_2-1.png";
+import headphone from "../../images/headphone_2-1.png";
 import headphone2 from "../../images/head_phone_2-2.png";
+import headphone3 from "../../images/headphone_1.png";
 import banner from "../../images/offer_banner_21-1-1-1.jpg";
 import banner2 from "../../images/offer_banner_31-1-1-1.png";
 import banner3 from "../../images/offer_banner_41-1-1-1.jpg";
@@ -15,7 +16,7 @@ import banner3 from "../../images/offer_banner_41-1-1-1.jpg";
 const HSlider = () => {
   const settings = {
     dots: true,
-    fade: true,
+    // fade: true,
     infinite: true,
     autoplay: true,
     autoplaySpeed: 4200,
@@ -31,7 +32,7 @@ const HSlider = () => {
             <div className="h-slider">
               <div className="h-details">
                 <h1>
-                  Sony 1000-GH<span>Gaming Headphones</span>
+                  Sony 1000-GH <span>Gaming Headphones</span>
                 </h1>
                 <p>
                   Sony 1000-GH Gaming Headphones, the ultimate audio companion
@@ -48,14 +49,14 @@ const HSlider = () => {
                 <img src={headphone2} alt="" />
               </div>
             </div>
-          </div>
+          </div>     
 
         </Slider>
       </div>
       
       <Offers />
       
-      <div className="home-images">
+      {/* <div className="home-images">
         <div className="image">
           <img src={banner} alt="" />
         </div>
@@ -65,7 +66,7 @@ const HSlider = () => {
         <div className="image">
           <img src={banner3} alt="" />
         </div>
-      </div>
+      </div> */}
     </>
   );
 };
