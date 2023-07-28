@@ -14,18 +14,16 @@
 .h-slider {
   /* height: 92vh; */
   display: flex;
-  padding:  2.5rem 5rem 1rem 5rem;
+  padding: 2.5rem 5rem 1rem 5rem;
   justify-content: center;
   align-items: center;
   gap: 2.5rem;
 }
 .h-details {
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex: 1 1 400px;
   flex-direction: column;
-  text-align: center;
+  text-align: start;
 }
 .h-details h1 {
   font-size: 37px;
@@ -51,8 +49,9 @@
   display: flex;
   flex: 1 1 400px;
 }
-.h-image img{
-  width: 82%; height: 82%;
+.h-image img {
+  width: 82%;
+  height: 82%;
   object-fit: cover;
 }
 
@@ -76,20 +75,26 @@
     justify-content: center;
     align-items: center;
   }
+  .h-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
 }
 @media (max-width: 490px) {
-  .h-details h1{
+  .h-details h1 {
     font-size: 42px;
   }
-  .h-details p{
+  .h-details p {
     font-size: 19px;
   }
 }
-@media(min-width:1650px){
-  .h-details h1{
+@media (min-width: 1650px) {
+  .h-details h1 {
     font-size: 68px;
   }
-  .h-slider{
+  .h-slider {
     max-width: 70%;
     margin-left: 20rem;
   }
@@ -102,5 +107,5 @@
 }
 
 .slick-dots li button:before {
-    font-size: 20px !important;
+  font-size: 20px !important;
 }

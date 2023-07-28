@@ -20,9 +20,7 @@
   width: fit-content;
   font-size: 17px;
   padding: 1rem 3rem;
-  margin: 10px;
-  font-weight: 500;
-  /* background: orangered; */
+  margin: 8px;
   background: linear-gradient(90deg, rgb(157, 34, 0) 0%, rgb(245, 98, 35) 100%);
   color: #000;
   font-weight: 900;
@@ -30,7 +28,7 @@
   position: relative;
   overflow: hidden;
   border-radius: 3px;
-  box-shadow: 0 0 21px #7f7f7f;
+  box-shadow: 0 0 11px rgba(0, 0, 0, 0.3);
   transition: 0.2s;
   cursor: pointer;
 }

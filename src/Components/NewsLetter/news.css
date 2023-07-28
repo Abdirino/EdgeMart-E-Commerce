@@ -8,8 +8,10 @@
 }
 .news {
   display: flex;
+  justify-content: center;
   align-items: center;
-  justify-content: space-around;
+  flex-direction: column;
+  gap: 1rem;
   background: linear-gradient(to right,rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../../images/Offer\ img.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -28,25 +30,31 @@
   color: white;
   font-size: 20px;
 }
-.n-input input {
-  padding: 15px 90px 15px 10px;
-  border: 0.8px solid grey;
+.n-input{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.n-input button {
-  padding: 15px 40px;
+.n-input input {
+  width: 170%;
+  padding: 1rem;
+  border-radius: 3px;
+  letter-spacing: 1px;
+  border: 0.8px solid rgba(0, 0, 0, 0.3);
+  text-transform: uppercase;
+}
+.n-input .button {
   border: none;
   cursor: pointer;
-  background: orangered;
-  color: white;
-  font-weight: bold;
+  background: linear-gradient(90deg, rgb(157, 34, 0) 0%, rgb(245, 98, 35) 100%);
+  color: #000;
+  font-weight: 900;
+  color: white !important;
+
 }
 @media (max-width: 990px) {
   .news {
     flex-wrap: wrap;
-    gap: 35px;
-  }
-  .n-input input {
-    padding: 15px 40px 15px 10px;
-    border: 0.8px solid grey;
   }
 }

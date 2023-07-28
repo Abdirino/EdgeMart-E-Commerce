@@ -10,8 +10,8 @@ const News = () => {
           <p>Sign up for our newsletter to get up-to-date from us</p>
         </div>
         <div className="n-input">
-            <input type="text" placeholder="Enter Your E-Mail..." />
-            <button>Submit</button>
+            <input type="text" placeholder="E-Mail Address" />
+            <button className="button">Submit</button>
         </div>
       </div>
     </>

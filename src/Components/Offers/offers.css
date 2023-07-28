@@ -1,51 +1,55 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
-*{
-    margin: 0; padding: 0;
-    box-sizing: border-box;
-    transition: 0.4s ease;
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 0.4s ease;
 }
-.offers{
-    padding: 2rem 3.6rem;
-    font-family: 'Josefin Sans', sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+.offers {
+  padding: 2rem 3.6rem;
+  font-family: "Josefin Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
-.offer-details{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+.offer-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
 }
-.offer-details .offer{
-    padding: 15px 10px;
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-    flex: 1 1 250px;
-    margin: 10px;
-    border-radius: 3px;
-    text-align: center;
-    cursor: pointer;
+.offer-details .offer {
+  padding: 15px 10px;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex: 1 1 250px;
+  margin: 10px;
+  border-radius: 3px;
+  text-align: center;
+  cursor: pointer;
 }
-.offer-details .offer .o-detail{
-    text-align: start;
+.offer-details .offer .o-detail {
+  text-align: start;
 }
-.offer .o-icon i{
-    font-size: 40px;
-    color: orangered;
+.offer .o-icon i {
+  font-size: 40px;
+  color: orangered;
 }
-.o-detail h3{
-    font-size: 18px;
-    padding: 8px 0;
+.o-detail h3 {
+  font-size: 18px;
+  padding: 8px 0;
 }
-.o-detail p{
-    /* font-size: 15px; */
-    color: grey;
+.o-detail p {
+  /* font-size: 15px; */
+  color: grey;
 }
-@media (max-width: 950px){
-    .offer-details{
-        flex-wrap: wrap;
-    }
+@media (max-width: 950px) {
+  .offers {
+    padding: 2rem 0.6rem;
+  }
+  .offer-details {
+    flex-wrap: wrap;
+  }
 }
